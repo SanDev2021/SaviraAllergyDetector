@@ -1,0 +1,6 @@
+framework module Pods_SaviraTests {
+  umbrella header "Pods-SaviraTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

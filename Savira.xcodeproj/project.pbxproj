@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270A32EB244992A800CF9AB2 /* SelectIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A32EA244992A800CF9AB2 /* SelectIngredientsViewController.swift */; };
+		270A32F1244A049B00CF9AB2 /* SelectIngredientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A32EF244A049B00CF9AB2 /* SelectIngredientsTableViewCell.swift */; };
+		270A32F2244A049B00CF9AB2 /* SelectIngredientsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 270A32F0244A049B00CF9AB2 /* SelectIngredientsTableViewCell.xib */; };
+		2792713324431DA6008EF10B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2792713224431DA6008EF10B /* GoogleService-Info.plist */; };
+		27E60E972446C611002C7015 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E60E962446C611002C7015 /* InitialViewController.swift */; };
+		5A6C10A4236D3F25FF991BEA /* Pods_SaviraTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012A00138E6611B84793A4C /* Pods_SaviraTests.framework */; };
+		8C6B98ED03C18BA36DFE479E /* Pods_Savira.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E57E4968E3771E4488F632 /* Pods_Savira.framework */; };
+		B24031272440DE7800B2F6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24031262440DE7800B2F6EC /* AppDelegate.swift */; };
+		B240312E2440DE7800B2F6EC /* SignInSignup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B240312C2440DE7800B2F6EC /* SignInSignup.storyboard */; };
+		B24031302440DE8000B2F6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B240312F2440DE8000B2F6EC /* Assets.xcassets */; };
+		B24031332440DE8000B2F6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24031312440DE8000B2F6EC /* LaunchScreen.storyboard */; };
+		B240313E2440DE8100B2F6EC /* SaviraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240313D2440DE8100B2F6EC /* SaviraTests.swift */; };
+		B24031492440DE8100B2F6EC /* SaviraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24031482440DE8100B2F6EC /* SaviraUITests.swift */; };
+		B24031572441C52900B2F6EC /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24031562441C52900B2F6EC /* SigninViewController.swift */; };
+		B24876B12441DD7F00C09595 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24876B02441DD7F00C09595 /* SignupViewController.swift */; };
+		B24876B32441E18500C09595 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24876B22441E18500C09595 /* WelcomeViewController.swift */; };
+		B24876B62441E20300C09595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24876B52441E20300C09595 /* Main.storyboard */; };
+		B24876B82441E24B00C09595 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24876B72441E24B00C09595 /* ScanViewController.swift */; };
+		B45C8E2E23C00CCEF2365D7E /* Pods_Savira_SaviraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466D68BFED95867E3E43AA3E /* Pods_Savira_SaviraUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B240313A2440DE8100B2F6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B240311B2440DE7800B2F6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24031222440DE7800B2F6EC;
+			remoteInfo = Savira;
+		};
+		B24031452440DE8100B2F6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B240311B2440DE7800B2F6EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B24031222440DE7800B2F6EC;
+			remoteInfo = Savira;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		270A32EA244992A800CF9AB2 /* SelectIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIngredientsViewController.swift; sourceTree = "<group>"; };
+		270A32EF244A049B00CF9AB2 /* SelectIngredientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIngredientsTableViewCell.swift; sourceTree = "<group>"; };
+		270A32F0244A049B00CF9AB2 /* SelectIngredientsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectIngredientsTableViewCell.xib; sourceTree = "<group>"; };
+		2792713224431DA6008EF10B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27E60E962446C611002C7015 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		329E76724FF24C1C9D511B3B /* Pods-Savira.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Savira.debug.xcconfig"; path = "Target Support Files/Pods-Savira/Pods-Savira.debug.xcconfig"; sourceTree = "<group>"; };
+		443EDEC6728947C033364158 /* Pods-Savira-SaviraUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Savira-SaviraUITests.release.xcconfig"; path = "Target Support Files/Pods-Savira-SaviraUITests/Pods-Savira-SaviraUITests.release.xcconfig"; sourceTree = "<group>"; };
+		466D68BFED95867E3E43AA3E /* Pods_Savira_SaviraUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Savira_SaviraUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E57E4968E3771E4488F632 /* Pods_Savira.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Savira.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923C29CABE0C381B60F40DB8 /* Pods-Savira.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Savira.release.xcconfig"; path = "Target Support Files/Pods-Savira/Pods-Savira.release.xcconfig"; sourceTree = "<group>"; };
+		9A5F77156FC4A8A4D8E55605 /* Pods-Savira-SaviraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Savira-SaviraUITests.debug.xcconfig"; path = "Target Support Files/Pods-Savira-SaviraUITests/Pods-Savira-SaviraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C10CF60DC5EF2B05F6898D /* Pods-SaviraTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaviraTests.debug.xcconfig"; path = "Target Support Files/Pods-SaviraTests/Pods-SaviraTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B24031232440DE7800B2F6EC /* Savira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Savira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24031262440DE7800B2F6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B240312D2440DE7800B2F6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignInSignup.storyboard; sourceTree = "<group>"; };
+		B240312F2440DE8000B2F6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B24031322440DE8000B2F6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B24031342440DE8000B2F6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24031392440DE8100B2F6EC /* SaviraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaviraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B240313D2440DE8100B2F6EC /* SaviraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaviraTests.swift; sourceTree = "<group>"; };
+		B240313F2440DE8100B2F6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24031442440DE8100B2F6EC /* SaviraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaviraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24031482440DE8100B2F6EC /* SaviraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaviraUITests.swift; sourceTree = "<group>"; };
+		B240314A2440DE8100B2F6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24031562441C52900B2F6EC /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		B24876B02441DD7F00C09595 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B24876B22441E18500C09595 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B24876B52441E20300C09595 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B24876B72441E24B00C09595 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		C012A00138E6611B84793A4C /* Pods_SaviraTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaviraTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D337FD6523CD33359A062D21 /* Pods-SaviraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaviraTests.release.xcconfig"; path = "Target Support Files/Pods-SaviraTests/Pods-SaviraTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24031202440DE7800B2F6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6B98ED03C18BA36DFE479E /* Pods_Savira.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031362440DE8100B2F6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6C10A4236D3F25FF991BEA /* Pods_SaviraTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031412440DE8100B2F6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45C8E2E23C00CCEF2365D7E /* Pods_Savira_SaviraUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270A32EC2449A24600CF9AB2 /* Custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				270A32EF244A049B00CF9AB2 /* SelectIngredientsTableViewCell.swift */,
+				270A32F0244A049B00CF9AB2 /* SelectIngredientsTableViewCell.xib */,
+			);
+			path = "Custom cell";
+			sourceTree = "<group>";
+		};
+		4B01E8C626321C3B6AB79356 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				329E76724FF24C1C9D511B3B /* Pods-Savira.debug.xcconfig */,
+				923C29CABE0C381B60F40DB8 /* Pods-Savira.release.xcconfig */,
+				9A5F77156FC4A8A4D8E55605 /* Pods-Savira-SaviraUITests.debug.xcconfig */,
+				443EDEC6728947C033364158 /* Pods-Savira-SaviraUITests.release.xcconfig */,
+				B0C10CF60DC5EF2B05F6898D /* Pods-SaviraTests.debug.xcconfig */,
+				D337FD6523CD33359A062D21 /* Pods-SaviraTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B240311A2440DE7800B2F6EC = {
+			isa = PBXGroup;
+			children = (
+				B24031252440DE7800B2F6EC /* Savira */,
+				B240313C2440DE8100B2F6EC /* SaviraTests */,
+				B24031472440DE8100B2F6EC /* SaviraUITests */,
+				B24031242440DE7800B2F6EC /* Products */,
+				4B01E8C626321C3B6AB79356 /* Pods */,
+				F4A5F7CD5AF4DED2B3B1832C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B24031242440DE7800B2F6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B24031232440DE7800B2F6EC /* Savira.app */,
+				B24031392440DE8100B2F6EC /* SaviraTests.xctest */,
+				B24031442440DE8100B2F6EC /* SaviraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B24031252440DE7800B2F6EC /* Savira */ = {
+			isa = PBXGroup;
+			children = (
+				B24876B42441E1CE00C09595 /* StoryBoards */,
+				B24031582441C6BF00B2F6EC /* Controllers */,
+				B24031262440DE7800B2F6EC /* AppDelegate.swift */,
+				B240312F2440DE8000B2F6EC /* Assets.xcassets */,
+				B24031312440DE8000B2F6EC /* LaunchScreen.storyboard */,
+				B24031342440DE8000B2F6EC /* Info.plist */,
+				2792713224431DA6008EF10B /* GoogleService-Info.plist */,
+			);
+			path = Savira;
+			sourceTree = "<group>";
+		};
+		B240313C2440DE8100B2F6EC /* SaviraTests */ = {
+			isa = PBXGroup;
+			children = (
+				B240313D2440DE8100B2F6EC /* SaviraTests.swift */,
+				B240313F2440DE8100B2F6EC /* Info.plist */,
+			);
+			path = SaviraTests;
+			sourceTree = "<group>";
+		};
+		B24031472440DE8100B2F6EC /* SaviraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B24031482440DE8100B2F6EC /* SaviraUITests.swift */,
+				B240314A2440DE8100B2F6EC /* Info.plist */,
+			);
+			path = SaviraUITests;
+			sourceTree = "<group>";
+		};
+		B24031582441C6BF00B2F6EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				270A32EC2449A24600CF9AB2 /* Custom cell */,
+				27E60E962446C611002C7015 /* InitialViewController.swift */,
+				B24031562441C52900B2F6EC /* SigninViewController.swift */,
+				B24876B02441DD7F00C09595 /* SignupViewController.swift */,
+				B24876B22441E18500C09595 /* WelcomeViewController.swift */,
+				B24876B72441E24B00C09595 /* ScanViewController.swift */,
+				270A32EA244992A800CF9AB2 /* SelectIngredientsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B24876B42441E1CE00C09595 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B240312C2440DE7800B2F6EC /* SignInSignup.storyboard */,
+				B24876B52441E20300C09595 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		F4A5F7CD5AF4DED2B3B1832C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E57E4968E3771E4488F632 /* Pods_Savira.framework */,
+				466D68BFED95867E3E43AA3E /* Pods_Savira_SaviraUITests.framework */,
+				C012A00138E6611B84793A4C /* Pods_SaviraTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24031222440DE7800B2F6EC /* Savira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B240314D2440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "Savira" */;
+			buildPhases = (
+				598F73493967853887E25103 /* [CP] Check Pods Manifest.lock */,
+				B240311F2440DE7800B2F6EC /* Sources */,
+				B24031202440DE7800B2F6EC /* Frameworks */,
+				B24031212440DE7800B2F6EC /* Resources */,
+				862CFDF7ECD15845998DC4BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Savira;
+			productName = Savira;
+			productReference = B24031232440DE7800B2F6EC /* Savira.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B24031382440DE8100B2F6EC /* SaviraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24031502440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "SaviraTests" */;
+			buildPhases = (
+				619E76CD2C0063FBE2D91004 /* [CP] Check Pods Manifest.lock */,
+				B24031352440DE8100B2F6EC /* Sources */,
+				B24031362440DE8100B2F6EC /* Frameworks */,
+				B24031372440DE8100B2F6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B240313B2440DE8100B2F6EC /* PBXTargetDependency */,
+			);
+			name = SaviraTests;
+			productName = SaviraTests;
+			productReference = B24031392440DE8100B2F6EC /* SaviraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B24031432440DE8100B2F6EC /* SaviraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24031532440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "SaviraUITests" */;
+			buildPhases = (
+				74FF85F74EEAAE4DCB47C47E /* [CP] Check Pods Manifest.lock */,
+				B24031402440DE8100B2F6EC /* Sources */,
+				B24031412440DE8100B2F6EC /* Frameworks */,
+				B24031422440DE8100B2F6EC /* Resources */,
+				98F1C4D2B40C3BE7E957778A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24031462440DE8100B2F6EC /* PBXTargetDependency */,
+			);
+			name = SaviraUITests;
+			productName = SaviraUITests;
+			productReference = B24031442440DE8100B2F6EC /* SaviraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B240311B2440DE7800B2F6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Palvi;
+				TargetAttributes = {
+					B24031222440DE7800B2F6EC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B24031382440DE8100B2F6EC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B24031222440DE7800B2F6EC;
+					};
+					B24031432440DE8100B2F6EC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B24031222440DE7800B2F6EC;
+					};
+				};
+			};
+			buildConfigurationList = B240311E2440DE7800B2F6EC /* Build configuration list for PBXProject "Savira" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B240311A2440DE7800B2F6EC;
+			productRefGroup = B24031242440DE7800B2F6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B24031222440DE7800B2F6EC /* Savira */,
+				B24031382440DE8100B2F6EC /* SaviraTests */,
+				B24031432440DE8100B2F6EC /* SaviraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24031212440DE7800B2F6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24031332440DE8000B2F6EC /* LaunchScreen.storyboard in Resources */,
+				B24031302440DE8000B2F6EC /* Assets.xcassets in Resources */,
+				270A32F2244A049B00CF9AB2 /* SelectIngredientsTableViewCell.xib in Resources */,
+				2792713324431DA6008EF10B /* GoogleService-Info.plist in Resources */,
+				B240312E2440DE7800B2F6EC /* SignInSignup.storyboard in Resources */,
+				B24876B62441E20300C09595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031372440DE8100B2F6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031422440DE8100B2F6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		598F73493967853887E25103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Savira-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		619E76CD2C0063FBE2D91004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaviraTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FF85F74EEAAE4DCB47C47E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Savira-SaviraUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		862CFDF7ECD15845998DC4BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Savira/Pods-Savira-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Savira/Pods-Savira-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Savira/Pods-Savira-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98F1C4D2B40C3BE7E957778A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Savira-SaviraUITests/Pods-Savira-SaviraUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Savira-SaviraUITests/Pods-Savira-SaviraUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Savira-SaviraUITests/Pods-Savira-SaviraUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B240311F2440DE7800B2F6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24876B12441DD7F00C09595 /* SignupViewController.swift in Sources */,
+				B24876B32441E18500C09595 /* WelcomeViewController.swift in Sources */,
+				270A32EB244992A800CF9AB2 /* SelectIngredientsViewController.swift in Sources */,
+				B24876B82441E24B00C09595 /* ScanViewController.swift in Sources */,
+				27E60E972446C611002C7015 /* InitialViewController.swift in Sources */,
+				B24031572441C52900B2F6EC /* SigninViewController.swift in Sources */,
+				270A32F1244A049B00CF9AB2 /* SelectIngredientsTableViewCell.swift in Sources */,
+				B24031272440DE7800B2F6EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031352440DE8100B2F6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B240313E2440DE8100B2F6EC /* SaviraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24031402440DE8100B2F6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24031492440DE8100B2F6EC /* SaviraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B240313B2440DE8100B2F6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24031222440DE7800B2F6EC /* Savira */;
+			targetProxy = B240313A2440DE8100B2F6EC /* PBXContainerItemProxy */;
+		};
+		B24031462440DE8100B2F6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B24031222440DE7800B2F6EC /* Savira */;
+			targetProxy = B24031452440DE8100B2F6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B240312C2440DE7800B2F6EC /* SignInSignup.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B240312D2440DE7800B2F6EC /* Base */,
+			);
+			name = SignInSignup.storyboard;
+			sourceTree = "<group>";
+		};
+		B24031312440DE8000B2F6EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B24031322440DE8000B2F6EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B240314B2440DE8100B2F6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B240314C2440DE8100B2F6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B240314E2440DE8100B2F6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 329E76724FF24C1C9D511B3B /* Pods-Savira.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J53HJ333V;
+				INFOPLIST_FILE = Savira/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.Savira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B240314F2440DE8100B2F6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923C29CABE0C381B60F40DB8 /* Pods-Savira.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J53HJ333V;
+				INFOPLIST_FILE = Savira/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.Savira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B24031512440DE8100B2F6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C10CF60DC5EF2B05F6898D /* Pods-SaviraTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaviraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.SaviraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savira.app/Savira";
+			};
+			name = Debug;
+		};
+		B24031522440DE8100B2F6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D337FD6523CD33359A062D21 /* Pods-SaviraTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaviraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.SaviraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Savira.app/Savira";
+			};
+			name = Release;
+		};
+		B24031542440DE8100B2F6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5F77156FC4A8A4D8E55605 /* Pods-Savira-SaviraUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaviraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.SaviraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Savira;
+			};
+			name = Debug;
+		};
+		B24031552440DE8100B2F6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443EDEC6728947C033364158 /* Pods-Savira-SaviraUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaviraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.palvi.SaviraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Savira;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B240311E2440DE7800B2F6EC /* Build configuration list for PBXProject "Savira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B240314B2440DE8100B2F6EC /* Debug */,
+				B240314C2440DE8100B2F6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B240314D2440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "Savira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B240314E2440DE8100B2F6EC /* Debug */,
+				B240314F2440DE8100B2F6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24031502440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "SaviraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24031512440DE8100B2F6EC /* Debug */,
+				B24031522440DE8100B2F6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24031532440DE8100B2F6EC /* Build configuration list for PBXNativeTarget "SaviraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24031542440DE8100B2F6EC /* Debug */,
+				B24031552440DE8100B2F6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B240311B2440DE7800B2F6EC /* Project object */;
+}

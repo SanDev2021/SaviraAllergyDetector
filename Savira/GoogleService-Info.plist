@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>155658792006-soo86m03ikab7dqphme70gpvr4qv0nvj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.155658792006-soo86m03ikab7dqphme70gpvr4qv0nvj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBbl6m8cPfBB0F676Mn7liRzbWMPscqPGg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>155658792006</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.palvi.Savira</string>
+	<key>PROJECT_ID</key>
+	<string>savira-fd792</string>
+	<key>STORAGE_BUCKET</key>
+	<string>savira-fd792.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:155658792006:ios:e1b2ce52981452f5532e47</string>
+	<key>DATABASE_URL</key>
+	<string>https://savira-fd792.firebaseio.com</string>
+</dict>
+</plist>
