@@ -1,7 +1,7 @@
 //
 //  InitialViewController.swift
 //  Savira
-//  Copyright © 2020 Palvi. All rights reserved.
+//  Copyright © 2020 Sandev. All rights reserved.
 //
 
 import UIKit
